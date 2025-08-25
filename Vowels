@@ -10,3 +10,25 @@ for ch in text:
         count += 1
 
 print("Number of vowels:", count)
+
+# text = "Hello World"
+# vowels = "aeiouAEIOU"
+# count = 0
+
+# Loop through each character:
+
+# ch = 'H' → not in vowels → count = 0
+# ch = 'e' → in vowels → count = 1
+# ch = 'l' → not vowel → count = 1
+# ch = 'l' → not vowel → count = 1
+# ch = 'o' → in vowels → count = 2
+# ch = ' ' → not vowel → count = 2
+# ch = 'W' → not vowel → count = 2
+# ch = 'o' → in vowels → count = 3
+# ch = 'r' → not vowel → count = 3
+# ch = 'l' → not vowel → count = 3
+# ch = 'd' → not vowel → count = 3
+
+
+
+# Final Output: Number of vowels: 3
