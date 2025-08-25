@@ -8,3 +8,15 @@ if word_lower == word_lower[::-1]:
 else:
     print("No")
     print(word, "is not a palindrome.")
+
+# word = "Madam"
+# word_lower = "madam"
+# Reverse of "madam" → "madam"
+# "madam" == "madam" → True
+# Output: Yes, Madam is a palindrome.
+
+# word = "Python"
+# word_lower = "python"
+# Reverse of "python" → "nohtyp"
+# "python" == "nohtyp" → False
+# Output: No, Python is not a palindrome.
